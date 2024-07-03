@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MenuComponent } from './+component/menu/menu.component';
+import { CalcComponent } from './+component/calc/calc.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
-    MenuComponent
+    CalcComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -15,3 +15,4 @@ import { MenuComponent } from './+component/menu/menu.component';
 export class AppComponent {
   title = 'Project1';
 }
+
