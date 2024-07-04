@@ -1,5 +1,5 @@
-.calc{
-    border: 2px solid;
+.calc {
+    border: 2px solid rgb(204, 204, 204);
     border-radius: 5px;
     padding: 10px;
     width: 300px;
@@ -7,21 +7,28 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50% , -50%) ;
+    transform: translate(-50%, -50%);
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
-.calc .buttons{
+.calc .buttons {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5px;
 }
-.calc .buttons button{
+.calc .buttons button {
     width: 25%;
     height: 90px;
-    border: 2px solid;
-    border-radius: 5px;
-    font-size: 37px;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 9px;
+    font-size: 24px; 
+    background-color: rgb(255, 255, 255);
 }
-.calc .top{
-    border: 2px solid;
+.calc .buttons button:hover {
+    background-color: rgb(224, 224, 224); 
+}
+.calc .top {
+    border: 2px solid rgba(108, 108, 108, 0.863);
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 3px;
@@ -32,8 +39,8 @@
     display: inline-block;
     font-size: 17px;
 }
-.calc .top1{
-    border: 2px solid;
+.calc .top1 {
+    border: 2px solid rgba(108, 108, 108, 0.863);
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 3px;
@@ -43,8 +50,8 @@
     display: inline-block;
     font-size: 17px;
 }
-.calc .main{
-    border: 2px solid;
+.calc .main {
+    border: 2px solid rgba(108, 108, 108, 0.863);
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 3px;
