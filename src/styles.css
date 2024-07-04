@@ -1,5 +1,5 @@
-body{
-    background: rgb(255,0,0);
-    background: radial-gradient(circle, rgba(255,0,0,0.9019257361147583) 63%, rgba(21,85,223,0.8543066884957108) 79%);
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 8%, rgba(135, 135, 135, 1) 75%);
     min-height: 100vh;
 }
