@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class CalcComponent {
   num1: string = '0';
   num2: string = '0';
-  operator: string = '-';
+  operator: string = '.';
   click(c: string) {
     this.operator = c;
     this.num1 = this.num2;
@@ -29,7 +29,7 @@ export class CalcComponent {
     } else if (this.operator === '÷') {
       this.num2 = (Number(this.num1) / Number(this.num2)).toString();
     }
-    this.operator = '-';
+    this.operator = '.';
     this.num1 = '0';
   }
 }
