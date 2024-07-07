@@ -22,11 +22,14 @@ export class CalcComponent {
   op() {
     if (this.operator === '+') {
       this.num2 = (Number(this.num1) + Number(this.num2)).toString();
-    } else if (this.operator === '-') {
+    }
+    else if (this.operator === '-') {
       this.num2 = (Number(this.num1) - Number(this.num2)).toString();
-    } else if (this.operator === 'x') {
+    }
+    else if (this.operator === 'x') {
       this.num2 = (Number(this.num1) * Number(this.num2)).toString();
-    } else if (this.operator === '÷') {
+    }
+    else if (this.operator === '÷') {
       this.num2 = (Number(this.num1) / Number(this.num2)).toString();
     }
     this.operator = '.';
